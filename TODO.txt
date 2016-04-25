@@ -1,0 +1,4 @@
+1-decide on resistor values and select a diode type
+2-source a place to buy parts from 
+3-convert schematic into a PCB and start routing
+4-order the board on osh park

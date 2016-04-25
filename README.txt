@@ -1,0 +1,1 @@
+This project is a PCB designed in KICAD that allows an arduino to easily operate a 6-wire stepper motor drive. The board requires a clock speed for the motor and a direction for the motor to spin as inputs.
