@@ -6,7 +6,7 @@
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
-    (tracks 4)
+    (tracks 0)
     (zones 0)
     (modules 22)
     (nets 26)
@@ -152,7 +152,7 @@
   )
 
   (module Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10 (layer F.Cu) (tedit 552FFCCE) (tstamp 57214575)
-    (at 255.27 41.91 90)
+    (at 186.69 72.39 90)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
     (path /56F9D31C)
@@ -183,7 +183,7 @@
   )
 
   (module Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10 (layer F.Cu) (tedit 552FFCCE) (tstamp 57214589)
-    (at 255.27 52.07 270)
+    (at 186.69 82.55 270)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
     (path /571F21B4)
@@ -214,7 +214,7 @@
   )
 
   (module Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10 (layer F.Cu) (tedit 552FFCCE) (tstamp 5721459D)
-    (at 255.27 81.28 90)
+    (at 186.69 111.76 90)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
     (path /571F23A9)
@@ -245,7 +245,7 @@
   )
 
   (module Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10 (layer F.Cu) (tedit 552FFCCE) (tstamp 572145B1)
-    (at 255.27 91.44 270)
+    (at 186.69 121.92 270)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
     (path /571F23B1)
@@ -276,7 +276,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 572145B8)
-    (at 232.41 31.75)
+    (at 163.83 62.23)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /57217636)
@@ -305,7 +305,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 572145BF)
-    (at 233.68 62.23)
+    (at 165.1 92.71)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /57217280)
@@ -334,7 +334,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 572145C6)
-    (at 233.68 71.12)
+    (at 165.1 101.6)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /57217303)
@@ -363,7 +363,7 @@
   )
 
   (module Power_Integrations:TO-220 (layer F.Cu) (tedit 0) (tstamp 572145CD)
-    (at 232.41 101.6)
+    (at 163.83 132.08)
     (descr "Non Isolated JEDEC TO-220 Package")
     (tags "Power Integration YN Package")
     (path /572173B5)
@@ -392,7 +392,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 572145DD)
-    (at 220.98 31.75 180)
+    (at 152.4 62.23 180)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /571EEB1C)
@@ -424,7 +424,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 572145ED)
-    (at 220.98 62.23 180)
+    (at 152.4 92.71 180)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /571EECCE)
@@ -456,7 +456,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 572145FD)
-    (at 220.98 71.12 180)
+    (at 152.4 101.6 180)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /571EED22)
@@ -488,7 +488,7 @@
   )
 
   (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 56648415) (tstamp 5721460D)
-    (at 220.98 101.6 180)
+    (at 152.4 132.08 180)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
     (path /571EED28)
@@ -520,7 +520,7 @@
   )
 
   (module Housings_DIP:DIP-16_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 5721462C)
-    (at 165.1 80.01 90)
+    (at 96.52 110.49 90)
     (descr "16-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /56F9A966)
@@ -581,7 +581,7 @@
   )
 
   (module Housings_DIP:DIP-16_W7.62mm_LongPads (layer F.Cu) (tedit 54130A77) (tstamp 5721464B)
-    (at 165.1 49.53 90)
+    (at 96.52 80.01 90)
     (descr "16-lead dip package, row spacing 7.62 mm (300 mils), longer pads")
     (tags "dil dip 2.54 300")
     (path /571E5331)
@@ -642,7 +642,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-TH_Big (layer F.Cu) (tedit 56C35F03) (tstamp 57214650)
-    (at 190.5 100.33 90)
+    (at 121.92 130.81 90)
     (descr "Mesurement Point, Round, Trough Hole,  DM 3mm, Drill 1.5mm,")
     (tags "Mesurement Point Round Trough Hole 3mm 1.5mm")
     (path /5722578C)
@@ -659,7 +659,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-TH_Big (layer F.Cu) (tedit 56C35F03) (tstamp 57214655)
-    (at 176.53 100.33 90)
+    (at 107.95 130.81 90)
     (descr "Mesurement Point, Round, Trough Hole,  DM 3mm, Drill 1.5mm,")
     (tags "Mesurement Point Round Trough Hole 3mm 1.5mm")
     (path /57226AA2)
@@ -676,7 +676,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-TH_Big (layer F.Cu) (tedit 56C35F03) (tstamp 5721465A)
-    (at 261.62 31.75)
+    (at 198.12 62.23)
     (descr "Mesurement Point, Round, Trough Hole,  DM 3mm, Drill 1.5mm,")
     (tags "Mesurement Point Round Trough Hole 3mm 1.5mm")
     (path /5722DBD3)
@@ -693,7 +693,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-TH_Big (layer F.Cu) (tedit 56C35F03) (tstamp 5721465F)
-    (at 261.62 46.99)
+    (at 198.12 77.47)
     (descr "Mesurement Point, Round, Trough Hole,  DM 3mm, Drill 1.5mm,")
     (tags "Mesurement Point Round Trough Hole 3mm 1.5mm")
     (path /5722DBD9)
@@ -710,7 +710,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-TH_Big (layer F.Cu) (tedit 56C35F03) (tstamp 57214664)
-    (at 261.62 62.23)
+    (at 198.12 92.71)
     (descr "Mesurement Point, Round, Trough Hole,  DM 3mm, Drill 1.5mm,")
     (tags "Mesurement Point Round Trough Hole 3mm 1.5mm")
     (path /5722DBDF)
@@ -727,7 +727,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-TH_Big (layer F.Cu) (tedit 56C35F03) (tstamp 57214669)
-    (at 261.62 71.12)
+    (at 198.12 101.6)
     (descr "Mesurement Point, Round, Trough Hole,  DM 3mm, Drill 1.5mm,")
     (tags "Mesurement Point Round Trough Hole 3mm 1.5mm")
     (path /5722C210)
@@ -744,7 +744,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-TH_Big (layer F.Cu) (tedit 56C35F03) (tstamp 5721466E)
-    (at 261.62 86.36)
+    (at 198.12 116.84)
     (descr "Mesurement Point, Round, Trough Hole,  DM 3mm, Drill 1.5mm,")
     (tags "Mesurement Point Round Trough Hole 3mm 1.5mm")
     (path /5722D908)
@@ -761,7 +761,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Round-TH_Big (layer F.Cu) (tedit 56C35F03) (tstamp 57214673)
-    (at 261.62 101.6)
+    (at 196.85 132.08)
     (descr "Mesurement Point, Round, Trough Hole,  DM 3mm, Drill 1.5mm,")
     (tags "Mesurement Point Round Trough Hole 3mm 1.5mm")
     (path /5722D960)
@@ -776,10 +776,5 @@
     (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask F.SilkS)
       (net 5 "Net-(D4-Pad2)"))
   )
-
-  (segment (start 255.27 52.06746) (end 255.27254 52.07) (width 0.25) (layer F.Cu) (net 2) (tstamp 57214BF9))
-  (segment (start 255.27254 41.91508) (end 255.26746 41.91) (width 0.25) (layer F.Cu) (net 2) (tstamp 57214BF6))
-  (segment (start 255.27 91.43746) (end 255.27254 91.44) (width 0.25) (layer F.Cu) (net 2) (tstamp 57214BD9))
-  (segment (start 255.27254 81.28508) (end 255.26746 81.28) (width 0.25) (layer F.Cu) (net 2) (tstamp 57214BD3))
 
 )
