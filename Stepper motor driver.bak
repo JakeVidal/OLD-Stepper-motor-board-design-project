@@ -551,12 +551,15 @@ $EndComp
 $Comp
 L TEST_1P W9
 U 1 1 57241B12
-P 5800 4550
-F 0 "W9" H 5800 4820 50  0000 C CNN
-F 1 "TEST_1P" H 5800 4750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 6000 4550 50  0001 C CNN
-F 3 "" H 6000 4550 50  0000 C CNN
-	1    5800 4550
+P 5800 4650
+F 0 "W9" H 5800 4920 50  0000 C CNN
+F 1 "TEST_1P" H 5800 4850 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 6000 4650 50  0001 C CNN
+F 3 "" H 6000 4650 50  0000 C CNN
+	1    5800 4650
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5800 4650 5800 4550
+Connection ~ 5800 4550
 $EndSCHEMATC
