@@ -111,7 +111,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 3850 4050 3850
 Wire Wire Line
-	4350 4150 3150 4150
+	3150 4150 4350 4150
 Connection ~ 3250 3450
 Connection ~ 3350 3750
 Wire Wire Line
@@ -119,9 +119,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 3200 3350 3750
 Wire Wire Line
-	3250 4150 3250 4500
+	3250 4500 3250 4150
 Wire Wire Line
-	3250 4500 1650 4500
+	1650 4500 3250 4500
 Wire Wire Line
 	1650 4500 1650 3850
 Wire Wire Line
@@ -181,15 +181,13 @@ Wire Wire Line
 Wire Wire Line
 	5350 4050 5850 4050
 Wire Wire Line
-	4350 3800 4350 4150
+	4350 4150 4350 3800
 Wire Wire Line
 	4350 3800 5150 3800
 Wire Wire Line
 	5150 3800 5150 4300
 Wire Wire Line
 	5150 4300 5850 4300
-Wire Wire Line
-	1750 4350 850  4350
 Wire Wire Line
 	3450 4450 3450 4700
 Wire Wire Line
@@ -240,17 +238,6 @@ F 3 "" H 7500 4250 50  0000 C CNN
 	1    7500 4250
 	0    1    1    0   
 $EndComp
-$Comp
-L GND #PWR01
-U 1 1 571F00C5
-P 8200 4400
-F 0 "#PWR01" H 8200 4150 50  0001 C CNN
-F 1 "GND" H 8200 4250 50  0000 C CNN
-F 2 "" H 8200 4400 50  0000 C CNN
-F 3 "" H 8200 4400 50  0000 C CNN
-	1    8200 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 3500 7900 3500
 Wire Wire Line
@@ -269,10 +256,6 @@ Wire Wire Line
 	7700 4250 7700 5600
 Wire Wire Line
 	7700 5600 7900 5600
-Wire Wire Line
-	8200 3300 9700 3300
-Wire Wire Line
-	8200 4000 9700 4000
 $Comp
 L D D2
 U 1 1 571F21B4
@@ -295,10 +278,6 @@ F 3 "" H 9150 4850 50  0000 C CNN
 	1    9150 4850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8200 4700 9700 4700
-Wire Wire Line
-	8200 5400 9700 5400
 $Comp
 L D D4
 U 1 1 571F23B1
@@ -312,13 +291,7 @@ F 3 "" H 9150 5250 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	9150 5000 9150 5100
-Wire Wire Line
-	8750 5050 9700 5050
-Wire Wire Line
-	8750 3050 8750 5050
 Connection ~ 9150 5050
-Wire Wire Line
-	8750 3650 9700 3650
 Wire Wire Line
 	9150 3600 9150 3700
 Connection ~ 8750 3650
@@ -373,193 +346,149 @@ F 3 "" H 8100 3500 50  0000 L CNN
 $EndComp
 Wire Wire Line
 	5850 4450 3450 4450
-$Comp
-L GND #PWR02
-U 1 1 5721DF02
-P 8200 5100
-F 0 "#PWR02" H 8200 4850 50  0001 C CNN
-F 1 "GND" H 8200 4950 50  0000 C CNN
-F 2 "" H 8200 5100 50  0000 C CNN
-F 3 "" H 8200 5100 50  0000 C CNN
-	1    8200 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR03
-U 1 1 5721DF69
-P 8200 5800
-F 0 "#PWR03" H 8200 5550 50  0001 C CNN
-F 1 "GND" H 8200 5650 50  0000 C CNN
-F 2 "" H 8200 5800 50  0000 C CNN
-F 3 "" H 8200 5800 50  0000 C CNN
-	1    8200 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR04
-U 1 1 5721E209
-P 8200 3700
-F 0 "#PWR04" H 8200 3450 50  0001 C CNN
-F 1 "GND" H 8200 3550 50  0000 C CNN
-F 2 "" H 8200 3700 50  0000 C CNN
-F 3 "" H 8200 3700 50  0000 C CNN
-	1    8200 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1200 4250 1750 4250
-Wire Wire Line
-	1450 4450 1200 4450
-$Comp
-L TEST_1P W1
-U 1 1 5722578C
-P 1200 4250
-F 0 "W1" H 1200 4520 50  0000 C CNN
-F 1 "TEST_1P" H 1200 4450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 1400 4250 50  0001 C CNN
-F 3 "" H 1400 4250 50  0000 C CNN
-	1    1200 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W2
-U 1 1 57226AA2
-P 1200 4450
-F 0 "W2" H 1200 4720 50  0000 C CNN
-F 1 "TEST_1P" H 1200 4650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 1400 4450 50  0001 C CNN
-F 3 "" H 1400 4450 50  0000 C CNN
-	1    1200 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR05
-U 1 1 57227721
-P 5550 4550
-F 0 "#PWR05" H 5550 4300 50  0001 C CNN
-F 1 "GND" H 5550 4400 50  0000 C CNN
-F 2 "" H 5550 4550 50  0000 C CNN
-F 3 "" H 5550 4550 50  0000 C CNN
-	1    5550 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 4550 5850 4550
-$Comp
-L TEST_1P W6
-U 1 1 5722C210
-P 9700 4700
-F 0 "W6" H 9700 4970 50  0000 C CNN
-F 1 "TEST_1P" H 9700 4900 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 9900 4700 50  0001 C CNN
-F 3 "" H 9900 4700 50  0000 C CNN
-	1    9700 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W7
-U 1 1 5722D908
-P 9700 5050
-F 0 "W7" H 9700 5320 50  0000 C CNN
-F 1 "TEST_1P" H 9700 5250 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 9900 5050 50  0001 C CNN
-F 3 "" H 9900 5050 50  0000 C CNN
-	1    9700 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W8
-U 1 1 5722D960
-P 9700 5400
-F 0 "W8" H 9700 5670 50  0000 C CNN
-F 1 "TEST_1P" H 9700 5600 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 9900 5400 50  0001 C CNN
-F 3 "" H 9900 5400 50  0000 C CNN
-	1    9700 5400
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W3
-U 1 1 5722DBD3
-P 9700 3300
-F 0 "W3" H 9700 3570 50  0000 C CNN
-F 1 "TEST_1P" H 9700 3500 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 9900 3300 50  0001 C CNN
-F 3 "" H 9900 3300 50  0000 C CNN
-	1    9700 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W4
-U 1 1 5722DBD9
-P 9700 3650
-F 0 "W4" H 9700 3920 50  0000 C CNN
-F 1 "TEST_1P" H 9700 3850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 9900 3650 50  0001 C CNN
-F 3 "" H 9900 3650 50  0000 C CNN
-	1    9700 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W5
-U 1 1 5722DBDF
-P 9700 4000
-F 0 "W5" H 9700 4270 50  0000 C CNN
-F 1 "TEST_1P" H 9700 4200 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 9900 4000 50  0001 C CNN
-F 3 "" H 9900 4000 50  0000 C CNN
-	1    9700 4000
-	0    1    1    0   
-$EndComp
-Text Label 1200 4450 0    60   ~ 0
+	3550 4550 5850 4550
+Text Label 850  3500 0    60   ~ 0
 DIR
-Text Label 1200 4250 0    60   ~ 0
+Text Label 850  3400 0    60   ~ 0
 CLK
 $Comp
-L VCC #PWR06
-U 1 1 572404FF
-P 850 4350
-F 0 "#PWR06" H 850 4200 50  0001 C CNN
-F 1 "VCC" H 850 4500 50  0000 C CNN
-F 2 "" H 850 4350 50  0000 C CNN
-F 3 "" H 850 4350 50  0000 C CNN
-	1    850  4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR07
-U 1 1 57240D11
-P 8750 3050
-F 0 "#PWR07" H 8750 2900 50  0001 C CNN
-F 1 "VCC" H 8750 3200 50  0000 C CNN
-F 2 "" H 8750 3050 50  0000 C CNN
-F 3 "" H 8750 3050 50  0000 C CNN
-	1    8750 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W10
-U 1 1 57241938
-P 850 4350
-F 0 "W10" H 850 4620 50  0000 C CNN
-F 1 "TEST_1P" H 850 4550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 1050 4350 50  0001 C CNN
-F 3 "" H 1050 4350 50  0000 C CNN
-	1    850  4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L TEST_1P W9
-U 1 1 57241B12
-P 5800 4650
-F 0 "W9" H 5800 4920 50  0000 C CNN
-F 1 "TEST_1P" H 5800 4850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Big" H 6000 4650 50  0001 C CNN
-F 3 "" H 6000 4650 50  0000 C CNN
-	1    5800 4650
+L CONN_01X04 P1
+U 1 1 58AC3CBE
+P 650 3550
+F 0 "P1" H 650 3800 50  0000 C CNN
+F 1 "CONN_01X04" V 750 3550 50  0000 C CNN
+F 2 "" H 650 3550 50  0000 C CNN
+F 3 "" H 650 3550 50  0000 C CNN
+	1    650  3550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5800 4650 5800 4550
-Connection ~ 5800 4550
+	850  3500 1350 3500
+Wire Wire Line
+	850  3600 1250 3600
+Text Label 850  3600 0    60   ~ 0
+VCC
+Wire Wire Line
+	3550 4800 3550 4550
+Wire Wire Line
+	1350 4800 3550 4800
+Wire Wire Line
+	1350 4800 1350 4550
+Wire Wire Line
+	850  3700 1150 3700
+Text Label 850  3700 0    60   ~ 0
+GND
+Wire Wire Line
+	1750 4250 1450 4250
+Wire Wire Line
+	1450 4250 1450 3400
+Wire Wire Line
+	1450 3400 850  3400
+Wire Wire Line
+	1350 3500 1350 4450
+Wire Wire Line
+	1350 4450 1450 4450
+Wire Wire Line
+	1250 4350 1750 4350
+Wire Wire Line
+	1250 3100 1250 4350
+Wire Wire Line
+	1350 4550 1250 4550
+Wire Wire Line
+	1250 4550 1250 4450
+Wire Wire Line
+	1250 4450 1150 4450
+Wire Wire Line
+	1150 4450 1150 3700
+Wire Wire Line
+	8750 3200 8750 5050
+Wire Wire Line
+	5850 3200 8750 3200
+Wire Wire Line
+	5850 3200 5850 3350
+Wire Wire Line
+	5850 3350 3450 3350
+Wire Wire Line
+	3450 3350 3450 3100
+Wire Wire Line
+	3450 3100 1250 3100
+Connection ~ 1250 3600
+Wire Wire Line
+	9150 3650 8750 3650
+Wire Wire Line
+	8750 5050 9150 5050
+Wire Wire Line
+	8650 5900 8650 3700
+Wire Wire Line
+	7600 5900 8650 5900
+Wire Wire Line
+	8200 5800 8200 5900
+Connection ~ 8200 5900
+Wire Wire Line
+	8200 5100 8650 5100
+Connection ~ 8650 5100
+Wire Wire Line
+	8650 3700 8200 3700
+Wire Wire Line
+	8200 4400 8650 4400
+Connection ~ 8650 4400
+Wire Wire Line
+	7600 5900 7600 4700
+Wire Wire Line
+	7600 4700 5850 4700
+Wire Wire Line
+	5850 4700 5850 4550
+Connection ~ 5850 4550
+$Comp
+L CONN_01X04 P2
+U 1 1 58AD964B
+P 10450 4350
+F 0 "P2" H 10450 4600 50  0000 C CNN
+F 1 "CONN_01X04" V 10550 4350 50  0000 C CNN
+F 2 "" H 10450 4350 50  0000 C CNN
+F 3 "" H 10450 4350 50  0000 C CNN
+	1    10450 4350
+	1    0    0    -1  
+$EndComp
+Text Label 9550 4300 0    60   ~ 0
+Coil
+Text Label 9750 4200 0    60   ~ 0
+1+
+Text Label 9550 4400 0    60   ~ 0
+Coil
+Text Label 9550 4500 0    60   ~ 0
+Coil
+Text Label 9550 4200 0    60   ~ 0
+Coil
+Text Label 9750 4300 0    60   ~ 0
+1-
+Text Label 9750 4400 0    60   ~ 0
+2+
+Text Label 9750 4500 0    60   ~ 0
+2-
+Wire Wire Line
+	8200 3300 9400 3300
+Wire Wire Line
+	9400 3300 9400 4200
+Wire Wire Line
+	9400 4200 10250 4200
+Wire Wire Line
+	8200 4000 9150 4000
+Wire Wire Line
+	9150 4000 9150 4300
+Wire Wire Line
+	9150 4300 10250 4300
+Wire Wire Line
+	8200 5400 9400 5400
+Wire Wire Line
+	9400 5400 9400 4500
+Wire Wire Line
+	9400 4500 10250 4500
+Wire Wire Line
+	10250 4400 9150 4400
+Wire Wire Line
+	9150 4400 9150 4700
+Wire Wire Line
+	9150 4700 8200 4700
 $EndSCHEMATC
