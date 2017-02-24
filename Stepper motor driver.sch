@@ -425,4 +425,12 @@ Wire Wire Line
 	4150 3950 4150 3800
 Wire Wire Line
 	3150 3950 4150 3950
+Text Label 9600 4200 0    60   ~ 0
+Coil1+
+Text Label 9600 4300 0    60   ~ 0
+Coil1-
+Text Label 9600 4400 0    60   ~ 0
+Coil2+
+Text Label 9600 4500 0    60   ~ 0
+Coil2-
 $EndSCHEMATC
