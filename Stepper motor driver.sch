@@ -223,7 +223,7 @@ U 1 1 58AC3CBE
 P 650 3550
 F 0 "P1" H 650 3800 50  0000 C CNN
 F 1 "CONN_01X04" V 750 3550 50  0000 C CNN
-F 2 "Connect:Grove_1x04" H 650 3550 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 650 3550 50  0001 C CNN
 F 3 "" H 650 3550 50  0000 C CNN
 	1    650  3550
 	-1   0    0    1   
@@ -232,15 +232,23 @@ Text Label 850  3600 0    60   ~ 0
 VCC
 Text Label 850  3700 0    60   ~ 0
 GND
+Text Label 9600 4000 0    60   ~ 0
+Coil1+
+Text Label 9600 4300 0    60   ~ 0
+Coil1-
+Text Label 9600 4400 0    60   ~ 0
+Coil2+
+Text Label 9600 4600 0    60   ~ 0
+Coil2-
 $Comp
-L CONN_01X04 P2
-U 1 1 58AD964B
-P 10450 4350
-F 0 "P2" H 10450 4600 50  0000 C CNN
-F 1 "CONN_01X04" V 10550 4350 50  0000 C CNN
-F 2 "Connect:Grove_1x04" H 10450 4350 50  0001 C CNN
-F 3 "" H 10450 4350 50  0000 C CNN
-	1    10450 4350
+L CONN_01X06 P2
+U 1 1 58B0F217
+P 10900 4350
+F 0 "P2" H 10900 4700 50  0000 C CNN
+F 1 "CONN_01X06" V 11000 4350 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-06_06x2.54mm_Straight" H 10900 4350 50  0001 C CNN
+F 3 "" H 10900 4350 50  0000 C CNN
+	1    10900 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -352,9 +360,9 @@ Wire Wire Line
 	1250 3100 8750 3100
 Connection ~ 1250 3600
 Wire Wire Line
-	9150 3650 8750 3650
+	8750 3650 10050 3650
 Wire Wire Line
-	8750 5050 9150 5050
+	8750 5050 10050 5050
 Wire Wire Line
 	8650 5900 8650 3700
 Wire Wire Line
@@ -375,23 +383,15 @@ Wire Wire Line
 Wire Wire Line
 	8200 3300 9400 3300
 Wire Wire Line
-	9400 3300 9400 4200
-Wire Wire Line
-	9400 4200 10250 4200
-Wire Wire Line
 	8200 4000 9150 4000
 Wire Wire Line
 	9150 4000 9150 4300
 Wire Wire Line
-	9150 4300 10250 4300
+	9150 4300 10300 4300
 Wire Wire Line
 	8200 5400 9400 5400
 Wire Wire Line
-	9400 5400 9400 4500
-Wire Wire Line
-	9400 4500 10250 4500
-Wire Wire Line
-	10250 4400 9150 4400
+	9150 4400 10700 4400
 Wire Wire Line
 	9150 4400 9150 4700
 Wire Wire Line
@@ -425,12 +425,28 @@ Wire Wire Line
 	4150 3950 4150 3800
 Wire Wire Line
 	3150 3950 4150 3950
-Text Label 9600 4200 0    60   ~ 0
-Coil1+
-Text Label 9600 4300 0    60   ~ 0
-Coil1-
-Text Label 9600 4400 0    60   ~ 0
-Coil2+
-Text Label 9600 4500 0    60   ~ 0
-Coil2-
+Wire Wire Line
+	9400 5400 9400 4600
+Wire Wire Line
+	9400 4600 10700 4600
+Wire Wire Line
+	10050 5050 10050 4200
+Wire Wire Line
+	10400 4300 10700 4300
+Wire Wire Line
+	10050 3650 10050 4100
+Wire Wire Line
+	10050 4100 10700 4100
+Wire Wire Line
+	10050 4200 10700 4200
+Wire Wire Line
+	9400 3300 9400 4000
+Wire Wire Line
+	9400 4000 10400 4000
+Wire Wire Line
+	10400 4000 10400 4300
+Wire Wire Line
+	10300 4300 10300 4500
+Wire Wire Line
+	10300 4500 10700 4500
 $EndSCHEMATC
