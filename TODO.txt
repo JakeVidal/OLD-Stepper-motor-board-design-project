@@ -1,1 +1,5 @@
-1-order the board on osh park
+1 - Complete routing of the board
+2 - Refine board routing and clean ground planes
+3 - Re-simulate circuit
+4 - Order PCB from Osh Park and parts from Digikey
+5 - Solder PCB and test circuit
