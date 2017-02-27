@@ -223,21 +223,43 @@ Text Label 2050 3300 0    60   ~ 0
 GND
 Text Label 9650 3900 0    60   ~ 0
 Coil1+
-Text Label 9650 4200 0    60   ~ 0
+Text Label 9650 4100 0    60   ~ 0
 Coil1-
-Text Label 9650 4300 0    60   ~ 0
+Text Label 9650 4400 0    60   ~ 0
 Coil2+
-Text Label 9650 4500 0    60   ~ 0
+Text Label 9650 4600 0    60   ~ 0
 Coil2-
 $Comp
-L CONN_01X06 P2
-U 1 1 58B0F217
-P 10950 4250
-F 0 "P2" H 10950 4600 50  0000 C CNN
-F 1 "CONN_01X06" V 11050 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-06_06x2.54mm_Straight" H 10950 4250 50  0001 C CNN
-F 3 "" H 10950 4250 50  0000 C CNN
-	1    10950 4250
+L CONN_01X04 P1
+U 1 1 58AC3CBE
+P 1500 3450
+F 0 "P1" H 1500 3700 50  0000 C CNN
+F 1 "CONN_01X04" V 1600 3450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm" H 1500 3450 50  0001 C CNN
+F 3 "" H 1500 3450 50  0000 C CNN
+	1    1500 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P3
+U 1 1 58B39702
+P 10650 4500
+F 0 "P3" H 10650 4700 50  0000 C CNN
+F 1 "CONN_01X03" V 10750 4500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch1.27mm" H 10650 4500 50  0001 C CNN
+F 3 "" H 10650 4500 50  0000 C CNN
+	1    10650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P2
+U 1 1 58B396A2
+P 10650 4000
+F 0 "P2" H 10650 4200 50  0000 C CNN
+F 1 "CONN_01X03" V 10750 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch1.27mm" H 10650 4000 50  0001 C CNN
+F 3 "" H 10650 4000 50  0000 C CNN
+	1    10650 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -340,8 +362,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 3550 10100 3550
 Wire Wire Line
-	8800 4950 10100 4950
-Wire Wire Line
 	8700 5800 8700 3600
 Wire Wire Line
 	2250 5800 8700 5800
@@ -362,16 +382,6 @@ Wire Wire Line
 	8250 3200 9450 3200
 Wire Wire Line
 	8250 3900 9200 3900
-Wire Wire Line
-	9200 3900 9200 4200
-Wire Wire Line
-	9200 4200 10350 4200
-Wire Wire Line
-	8250 5300 9450 5300
-Wire Wire Line
-	9200 4300 10750 4300
-Wire Wire Line
-	9200 4300 9200 4600
 Wire Wire Line
 	9200 4600 8250 4600
 Wire Wire Line
@@ -404,43 +414,14 @@ Wire Wire Line
 Wire Wire Line
 	4250 3850 5250 3850
 Wire Wire Line
-	9450 5300 9450 4500
-Wire Wire Line
-	9450 4500 10750 4500
-Wire Wire Line
-	10100 4950 10100 4100
-Wire Wire Line
-	10450 4200 10750 4200
-Wire Wire Line
 	10100 3550 10100 4000
-Wire Wire Line
-	10100 4000 10750 4000
-Wire Wire Line
-	10100 4100 10750 4100
 Wire Wire Line
 	9450 3200 9450 3900
 Wire Wire Line
 	9450 3900 10450 3900
-Wire Wire Line
-	10450 3900 10450 4200
-Wire Wire Line
-	10350 4200 10350 4400
-Wire Wire Line
-	10350 4400 10750 4400
 Connection ~ 2350 3600
 Wire Wire Line
 	2550 3500 2550 4150
-$Comp
-L CONN_01X04 P1
-U 1 1 58AC3CBE
-P 1500 3450
-F 0 "P1" H 1500 3700 50  0000 C CNN
-F 1 "CONN_01X04" V 1600 3450 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 1500 3450 50  0001 C CNN
-F 3 "" H 1500 3450 50  0000 C CNN
-	1    1500 3450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2350 3600 1700 3600
 Wire Wire Line
@@ -449,4 +430,26 @@ Wire Wire Line
 	2450 3400 1700 3400
 Wire Wire Line
 	1700 3300 2250 3300
+Wire Wire Line
+	10100 4000 10450 4000
+Wire Wire Line
+	9200 3900 9200 4100
+Wire Wire Line
+	9200 4100 10450 4100
+Wire Wire Line
+	9200 4400 10450 4400
+Wire Wire Line
+	9200 4600 9200 4400
+Wire Wire Line
+	8800 4950 10100 4950
+Wire Wire Line
+	9450 5300 9450 4600
+Wire Wire Line
+	9450 4600 10450 4600
+Wire Wire Line
+	8250 5300 9450 5300
+Wire Wire Line
+	10100 4950 10100 4500
+Wire Wire Line
+	10100 4500 10450 4500
 $EndSCHEMATC
